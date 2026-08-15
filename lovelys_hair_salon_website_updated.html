@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lovely's Hair Salon | Esther Park, Kempton Park</title>
+<style>
+:root{--pink:#e9a8c0;--dark:#231c20;--cream:#fff8f5;--white:#fff;--muted:#756b70}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;color:var(--dark);background:var(--cream);line-height:1.6}
+nav{position:sticky;top:0;z-index:10;background:#fff;display:flex;justify-content:space-between;align-items:center;padding:18px 7%;box-shadow:0 2px 15px #00000010}
+.logo{font-size:1.25rem;font-weight:800}.logo span{color:#c96d91}
+nav a{color:var(--dark);text-decoration:none;margin-left:24px;font-size:.95rem}
+.hero{min-height:72vh;display:grid;place-items:center;text-align:center;padding:80px 7%;background:linear-gradient(135deg,#fff 0%,#f8dbe6 100%)}
+.hero .tag{letter-spacing:3px;text-transform:uppercase;font-size:.8rem;color:#9c536f;font-weight:700}
+h1{font-size:clamp(2.6rem,7vw,5.2rem);line-height:1.02;margin:18px 0}
+.hero p{max-width:650px;margin:0 auto 28px;color:#5d5459;font-size:1.08rem}
+.btn{display:inline-block;background:var(--dark);color:#fff;padding:13px 24px;border-radius:30px;text-decoration:none;font-weight:700}
+section{padding:75px 7%}.wrap{max-width:1100px;margin:auto}
+.section-title{text-align:center;margin-bottom:40px}.section-title h2{font-size:2.2rem}.section-title p{color:var(--muted);margin-top:8px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}
+.card{background:#fff;border-radius:22px;padding:30px;box-shadow:0 10px 30px #00000008}
+.feature-grid,.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.feature{text-align:center}.icon{font-size:2rem;margin-bottom:12px}.feature h3,.service h3{margin-bottom:8px}.feature p,.service p{color:var(--muted);font-size:.95rem}
+.services{background:#fff}
+.service{border:1px solid #f0d9e1;border-radius:20px;padding:25px;background:#fffafc}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:25px}
+.info p{margin:12px 0;color:var(--muted)}.notice{background:#fff3f7;border-left:4px solid var(--pink);padding:18px;border-radius:10px;margin-top:20px}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+.gallery div{height:210px;border-radius:18px;background:linear-gradient(135deg,#f7d4e0,#ead9dd);display:grid;place-items:center;text-align:center;color:#7b5965;font-weight:700}
+footer{background:var(--dark);color:#fff;text-align:center;padding:35px 7%}
+footer p{color:#d9cdd1;margin-top:7px;font-size:.9rem}
+@media(max-width:760px){nav{padding:15px 5%}nav div:last-child{display:none}.about,.contact{grid-template-columns:1fr}.feature-grid,.service-grid,.gallery{grid-template-columns:1fr}.gallery div{height:180px}section{padding:55px 5%}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">Lovely's <span>Hair Salon</span></div>
+  <div>
+    <a href="#about">About</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div>
+    <div class="tag">Esther Park • Kempton Park</div>
+    <h1>Feel Lovely.<br>Look Lovely.</h1>
+    <p>A welcoming local hair salon in Esther Park, Kempton Park. Visit Lovely's Hair Salon for your next hair appointment.</p>
+    <a class="btn" href="#contact">Find Us</a>
+  </div>
+</header>
+
+<section id="about">
+<div class="wrap">
+  <div class="section-title"><h2>About Lovely's</h2><p>Your local hair salon in Kempton Park.</p></div>
+  <div class="about">
+    <div class="card">
+      <h3>Welcome to Lovely's Hair Salon</h3>
+      <p style="margin-top:12px;color:#756b70">Lovely's Hair Salon is located in Esther Park, Kempton Park. This website is designed to make it easier for clients to discover the salon, find its location and learn more about its services.</p>
+      <div class="notice"><strong>Want to book?</strong><br>Contact the salon directly for current availability, services and pricing.</div>
+    </div>
+    <div class="card">
+      <h3>Why visit us?</h3>
+      <p style="margin-top:12px;color:#756b70">A convenient local salon for clients in and around Esther Park. Use the location details below to find the salon and contact the business for the latest information.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="services" id="services">
+<div class="wrap">
+  <div class="section-title"><h2>Our Services</h2><p>Ask the salon about the styles and treatments currently available.</p></div>
+  <div class="service-grid">
+    <div class="service"><h3>💇 Hair Styling</h3><p>Ask about available styling options and appointments.</p></div>
+    <div class="service"><h3>✨ Hair Care</h3><p>Ask the salon which hair-care treatments are currently offered.</p></div>
+    <div class="service"><h3>💖 Special Occasions</h3><p>Contact the salon to discuss your preferred look and availability.</p></div>
+  </div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+  <div class="section-title"><h2>Why Choose Lovely's?</h2></div>
+  <div class="feature-grid">
+    <div class="feature card"><div class="icon">📍</div><h3>Local</h3><p>Conveniently located in Esther Park, Kempton Park.</p></div>
+    <div class="feature card"><div class="icon">💗</div><h3>Personal Service</h3><p>Every client is unique. Lovely's Hair Salon provides a welcoming and personal experience where clients can discuss their preferred hairstyle, ask questions, and choose a look that suits their individual needs. Our goal is to make every visit comfortable and enjoyable.</p></div>
+    <div class="feature card"><div class="icon">📅</div><h3>Appointments</h3><p>Contact the salon to confirm availability before visiting.</p></div>
+  </div>
+</div>
+</section>
+
+<section id="gallery">
+<div class="wrap">
+  <div class="section-title"><h2>Gallery</h2><p>Salon photos and hairstyle examples can be added here.</p></div>
+  <div class="gallery">
+    <div>Salon Photo<br><small>Add image here</small></div>
+    <div>Hairstyle Photo<br><small>Add image here</small></div>
+    <div>Hairstyle Photo<br><small>Add image here</small></div>
+  </div>
+</div>
+</section>
+
+<section id="contact">
+<div class="wrap">
+  <div class="section-title"><h2>Contact & Location</h2><p>Plan your visit to Lovely's Hair Salon.</p></div>
+  <div class="contact">
+    <div class="card info">
+      <h3>📍 Visit Us</h3>
+      <p><strong>Lovely's Hair Salon</strong></p>
+      <p>66A Parkland Drive<br>Esther Park<br>Kempton Park, 1619<br>South Africa</p>
+      <a class="btn" target="_blank" href="https://www.google.com/maps/search/?api=1&query=66A+Parkland+Drive+Esther+Park+Kempton+Park+1619">Open in Maps</a>
+    </div>
+    <div class="card info">
+      <h3>📞 Book / Enquire</h3>
+      <p>Phone: <strong><a href="tel:0614490871" style="color:#c96d91;text-decoration:none">061 449 0871</a></strong></p>
+      <p>Social media:</p>
+      <p style="margin-top:8px">
+        <a href="https://www.instagram.com/lovelyshairsalon/" target="_blank" style="display:inline-block;background:#c96d91;color:white;text-decoration:none;padding:10px 16px;border-radius:22px;margin:4px">📸 Instagram @lovelyshairsalon</a>
+        <a href="https://www.facebook.com/p/Lovelys-Hair-Salon-61575078988159/?hr=1&wtsid=rdr_0EdBn67Z1ierpYl3I" target="_blank" style="display:inline-block;background:#231c20;color:white;text-decoration:none;padding:10px 16px;border-radius:22px;margin:4px">👍 Facebook Lovely's Hair Salon</a>
+      </p>
+      <div class="notice">For accurate prices, services, opening hours and bookings, please contact the salon directly.</div>
+    </div>
+  </div>
+</div>
+</section>
+
+<footer>
+  <h3>Lovely's Hair Salon</h3>
+  <p>66A Parkland Drive • Esther Park • Kempton Park</p>
+  <p>© 2026 Lovely's Hair Salon. Website concept created for the salon.</p>
+</footer>
+</body>
+</html>
